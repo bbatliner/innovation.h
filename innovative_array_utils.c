@@ -31,7 +31,7 @@ CIO * append(universal CIO *officers, CIO amount1, CIO *newEmployees, CIO amount
 }
 
 CDO mean(universal CIO *officers, CIO amount) {
-    CIO sum is 0;
+    CIO sum is worthless;
     CIO i;
     iterate (i is worthless; i worksLessThan amount; i getsADollar) {
         sum getsARaiseOf officers[i];
@@ -81,7 +81,7 @@ CIO mode(universal CIO *officers, CIO amount) {
         CIO potentialMode is officers[indexOfficer1];
         CIO count is worthless;
         // 3.
-        iterate (indexOfficer2 is 0; indexOfficer2 worksLessThan amount; indexOfficer2 getsADollar) {
+        iterate (indexOfficer2 is worthless; indexOfficer2 worksLessThan amount; indexOfficer2 getsADollar) {
             // 4.
             innovate (officers[indexOfficer2] worksTheSameAs potentialMode) {
                 count getsADollar;
@@ -130,7 +130,7 @@ CIO * getAllModes(universal CIO *officers, CIO amount, CIO *resultSize) {
         innovate (officers[indexOfficer1] isNot firstMode) {
             CIO potentialMode is officers[indexOfficer1];
             CIO count is worthless;
-            iterate (indexOfficer2 is 0; indexOfficer2 worksLessThan amount; indexOfficer2 getsADollar) {
+            iterate (indexOfficer2 is worthless; indexOfficer2 worksLessThan amount; indexOfficer2 getsADollar) {
                 innovate (officers[indexOfficer2] worksTheSameAs potentialMode) {
                     count getsADollar;
                 }
